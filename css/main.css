@@ -163,7 +163,7 @@ header h2 {
 
 #hero h2 {
   color: rgb(111, 107, 102);
-  font-size: 80px;
+  font-size: 64px;
   font-family: "League Spartan";
   margin-bottom: 0;
 }
@@ -192,23 +192,23 @@ header h2 {
 #bio {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 90px;
   min-height: 600px;
   /* border: 2px solid #ffffff; */
   border-radius: 50px;
-  background-color: rgba(255, 255, 255, 0.398);
+  background-color: rgba(255, 255, 255, 0.26);
 }
 
 #bio-text p {
-  max-width: 500px;
+  /* max-width: 500px; */
   justify-content: center;
   text-align: center;
 }
 
 /* VIDEO VIDEO VIDEO */
 .hero-video-1 video {
-  max-width: 500px;
+  /* max-width: 500px; */
   border-radius: 20px;
   border: 2px solid #ffffff;
   margin-bottom: 40px;
@@ -305,9 +305,10 @@ footer {
 
 #footer-text {
   display: flex;
-  color: #fff;
+  color: rgb(129, 129, 129);
   flex-direction: column;
   font-size: 23px;
+  font-family: "League Spartan";
 }
 
 #footer-logo {
@@ -342,35 +343,36 @@ footer {
 }
 
 #footer-buttons button {
-  background-color: #000000;
-  color: white;
+  background-color: #00000000;
+  color: rgb(129, 129, 129);
   margin-right: 20px;
   max-width: 450px;
   padding: 20px 47px;
   border-radius: 70px;
   font-size: 30px;
   cursor: pointer;
-  border: 2px solid white;
+  border: 2px solid rgb(129, 129, 129);
   margin-top: 7px;
   font-family: "League Spartan";
 }
 
 #footer-buttons h2 {
-  color: #ffffff;
-  font-size: 40px;
+  color: rgb(129, 129, 129);
+  font-size: 30px;
   margin-top: 45px;
   font-family: "League Spartan";
+  font-weight: 500;
 }
 
 #footer-contact p {
-  color: white;
+  color: rgb(129, 129, 129);
   font-size: 30px;
   font-family: "League Spartan";
 }
 
 #footer-contact button {
-  background-color: #000000;
-  color: white;
+  background-color: #00000000;
+  color: rgb(129, 129, 129);
   font-family: "League Spartan";
   margin-right: 40px;
   max-width: 450px;
@@ -378,7 +380,7 @@ footer {
   border-radius: 70px;
   font-size: 30px;
   cursor: pointer;
-  border: 2px solid white;
+  border: 2px solid rgb(129, 129, 129);
   margin-top: 50px;
 }
 
@@ -413,14 +415,14 @@ footer {
 #top-stripe {
 border-top: 1px solid #00ffc300;
   border-bottom: 3px solid #313131;
-  background-color: rgba(255, 255, 255, 0.193);
+  background-color: rgba(255, 255, 255, 0);
   color: rgb(123, 123, 123);
 }
 
 
 #bottom-stripe   {
   
-background-color: rgba(255, 255, 255, 0.193);
+background-color: rgba(255, 255, 255, 0);
     color: #626262;
      border-bottom: 1px solid #afafaf00;
 }
