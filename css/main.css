@@ -29,7 +29,10 @@ header img {
     max-height: 70px;
     justify-content: flex-start;
 } */
-/* INDUSTRY HEADER  INDUSTRY HEADER   */
+
+
+
+/*  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER   */
 header {
   /* border-bottom: 2px solid #000000; */
   min-height: 70px;
@@ -156,6 +159,9 @@ header h2 {
     flex: 0 0 calc(50% - 10px);
   }
 }
+
+/* HERO HERO HERO HERO HERO HERO HERO HERO HERO HERO HERO HERO HERO HERO HERO  */
+
 #hero {
   display: flex;
   left: 50%;
@@ -176,18 +182,7 @@ header h2 {
   margin-bottom: 0;
 }
 
-.nav-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 40px;
-}
 
-.nav-links a {
-  text-decoration: none;
-  color: #000000;
-  font-family: Geneva;
-}
 
 #bio {
   display: flex;
@@ -206,7 +201,7 @@ header h2 {
   text-align: center;
 }
 
-/* VIDEO VIDEO VIDEO */
+/* VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO VIDEO */
 .hero-video-1 video {
   /* max-width: 500px; */
   border-radius: 20px;
@@ -229,16 +224,63 @@ header h2 {
 } */
 /* 
 
-/* DESIGN  WORKS PREVIEW  */
+
+
+/* SCROLLING BANDS SCROLLING BANDS SCROLLING BANDS SCROLLING BANDS SCROLLING BANDS */
+
+.strip-section {
+  margin-bottom: 60px
+}
+
+.scrolling-strip {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px 0;
+  
+}
+
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "League Spartan";
+}
+
+.scrolling-text span {
+  margin: 0 24px;
+}
+
+#top-stripe {
+border-top: 1px solid #00ffc300;
+  border-bottom: 3px solid #313131;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(123, 123, 123);
+}
+
+
+#bottom-stripe   {
+  
+background-color: rgba(255, 255, 255, 0);
+    color: #626262;
+     border-bottom: 1px solid #afafaf00;
+}
+
+/* DESIGN   DESIGN   DESIGN   DESIGN   DESIGN   DESIGN  DESIGN   DESIGN   DESIGN   DESIGN   DESIGN   DESIGN   */
 #design-section {
   display: flex;
   flex-direction: column;
-  border: 2px solid #c13f3f;
+  /* border: 2px solid #000000; */
   margin-left: 20%;
   margin-right: 20%;
-  border-radius: 30px;
+  border-radius: 50px;
   margin-bottom: 40px;
-  background: radial-gradient(circle, #c3e1ff, #6b5d33);
+  min-height: 400px;
+  /* background: radial-gradient(circle, #c3e1ff2f, #fff3d04f); */
+  background-color: rgba(255, 255, 255, 0.361);
 }
 
 #design-divs {
@@ -248,7 +290,7 @@ header h2 {
 
 #design-work1 {
   max-width: 200px;
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
   border-radius: 30px;
   min-height: 200px;
   margin-right: 16px;
@@ -264,16 +306,18 @@ header h2 {
   background: url(../images/helicopter-2116170_640.jpg) no-repeat;
 }
 
-/* DEV  WORKS PREVIEW  */
+/* DEV   DEV   DEV   DEV   DEV   DEV   DEV   DEV  DEV   DEV   DEV   DEV   DEV   DEV   DEV   DEV   */
 #dev-section {
   display: flex;
   flex-direction: column;
-  border: 2px solid #ffffff;
+  /* border: 2px solid #000000; */
   margin-left: 20%;
   margin-right: 20%;
-  border-radius: 30px;
+  border-radius: 50px;
   margin-bottom: 40px;
-  background: radial-gradient(circle, #c3e1ff, #524828);
+  min-height: 400px;
+  /* background: radial-gradient(circle, #c3e1ff2f, #fff3d04f); */
+  background-color: rgba(255, 255, 255, 0.361);
 }
 
 #dev-divs {
@@ -294,9 +338,11 @@ header h2 {
   border: 2px solid #000000;
   border-radius: 30px;
   background: url(../images/helicopter-2116170_640.jpg) no-repeat;
-}
+}/*# sourceMappingURL=main.css.map */
 
-/* FOOTER FOOTER FOOTER FOOTER */
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 footer {
   min-height: 600px;
   background-color: rgba(255, 255, 255, 0.265);
@@ -383,116 +429,6 @@ footer {
   border: 2px solid rgb(129, 129, 129);
   margin-top: 50px;
 }
-
-/* SCROLLING BANDS */
-
-.strip-section {
-  margin-bottom: 60px
-}
-
-.scrolling-strip {
-  position: relative;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 12px 0;
-  
-}
-
-.scrolling-text {
-  display: inline-block;
-  white-space: nowrap;
-  font-weight: 400;
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: "League Spartan";
-}
-
-.scrolling-text span {
-  margin: 0 24px;
-}
-
-#top-stripe {
-border-top: 1px solid #00ffc300;
-  border-bottom: 3px solid #313131;
-  background-color: rgba(255, 255, 255, 0);
-  color: rgb(123, 123, 123);
-}
-
-
-#bottom-stripe   {
-  
-background-color: rgba(255, 255, 255, 0);
-    color: #626262;
-     border-bottom: 1px solid #afafaf00;
-}
-
-/* DESIGN  WORKS PREVIEW  */
-#design-section {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #000000;
-  margin-left: 20%;
-  margin-right: 20%;
-  border-radius: 30px;
-  margin-bottom: 40px;
-  background: radial-gradient(circle, #c3e1ff, #fff3d0);
-}
-
-#design-divs {
-  display: flex;
-  flex-direction: row;
-}
-
-#design-work1 {
-  max-width: 200px;
-  border: 2px solid #000000;
-  border-radius: 30px;
-  min-height: 200px;
-  margin-right: 16px;
-  margin-left: 16px;
-  background-size: contain;
-  background: url(../images/strawberries-7249448_640.jpg) no-repeat;
-}
-
-#design-work2 {
-  border: 2px solid #000000;
-  border-radius: 30px;
-  max-height: 200px;
-  background: url(../images/helicopter-2116170_640.jpg) no-repeat;
-}
-
-/* DEV  WORKS PREVIEW  */
-#dev-section {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #000000;
-  margin-left: 20%;
-  margin-right: 20%;
-  border-radius: 30px;
-  margin-bottom: 40px;
-  background: radial-gradient(circle, #c3e1ff, #fff3d0);
-}
-
-#dev-divs {
-  display: flex;
-  flex-direction: row;
-}
-
-#dev-work1 {
-  max-width: 200px;
-  border: 2px solid #000000;
-  border-radius: 30px;
-  background: url(../images/strawberries-7249448_640.jpg) no-repeat;
-  margin-right: 16px;
-  margin-left: 16px;
-}
-
-#dev-work2 {
-  border: 2px solid #000000;
-  border-radius: 30px;
-  background: url(../images/helicopter-2116170_640.jpg) no-repeat;
-}/*# sourceMappingURL=main.css.map */
 
 /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
 
