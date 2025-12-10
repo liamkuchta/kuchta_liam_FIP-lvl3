@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>Liam Kuchta portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
@@ -24,31 +25,13 @@
 </head>
 
 <body>
-    <!-- <header>
-
-        <nav>
-
-            <h2 class="hidden">Header</h2>
-            <h2 class="hidden">logo</h2>
-            <div class="col-span-2 m-col-span-2 l-col-span-2">
-                <img src="images/logo.png" alt="Fanshawe's logo" class="logo">
-            </div>
-
-            <div class="nav-links">
-                <a href="#">WORKS</a>
-                <a href="#">REFERENCES</a>
-                <a href="#">CONTACT</a>
-
-            </div>
-        </nav>
-
-    </header> -->
 
     <header class="grid-con">
         <h1 class="hidden">Header</h1>
         <h2 class="hidden">logo</h2>
         <div class="col-span-2 m-col-span-2 l-col-span-2">
-            <img src="images/logo.png" alt="LIam's logo" class="logo">
+
+            <a href="index.html"><img src="images/logo.png" alt="liam logo" class="logo"></a>
         </div>
 
         <nav id="nav" class="col-start-3 m-col-start-3 m-col-span-6 l-col-start-7 l-col-span-5">
@@ -61,9 +44,9 @@
 
             <!-- Nav menu -->
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#event">WORKS</a></li>
+                <li><a href="works.html">WORKS</a></li>
                 <li><a href="#program-info">REFERENCES</a></li>
-                <li><a href="#portfolio-section">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
 
             </ul>
         </nav>
@@ -78,7 +61,7 @@
         <h3>DESIGNER & <br>FRONT-END DEVELOPER </h3>
     </section>
 
-    <section id="bio" class="grid-con l-col-start-4 l-col-end-7">
+    <section id="bio">
         <h2 class="hidden"> bio section</h2>
         <div id="bio-text">
             <p>I’m a web developer with a passion for creating clean, user-friendly, and responsive websites. Skilled in
@@ -91,11 +74,13 @@
                 goal
                 is to deliver seamless digital solutions that balance both functionality and aesthetics.</p>
         </div>
-        <div class="hero-video-1">
-            <video autoplay muted loop playsinline>
+    </section>
 
-                <source src="video/edit2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+    <section id="videosection">
+        <div class="video-container ">
+            <video controls muted autoplay loop class="hero-video">
+                <source src="/video/test6.mp4" type="video/mp4">
+
             </video>
         </div>
     </section>
@@ -111,8 +96,6 @@
                 <span>KUCHTA WEB DESIGN</span> •
                 <span>KUCHTA WEB DESIGN</span> •
                 <span>KUCHTA WEB DESIGN</span> •
-
-
             </div>
         </div>
 
@@ -134,48 +117,26 @@
     <section class="grid-con" id="design-section">
         <h2 class="hidden">design div</h2>
 
-        <a href="designwork.html" class="design-page-link">
-            <h2>DESIGN WORK</h2>
+        <a href="works.html" class="design-page-link">
+            <h2>CURRENT WORKS</h2>
 
             <div id="design-divs">
-
                 <div id="design-work1">
-                    <p>aknflkafialhksfhukhk</p>
+                    <div>
+                        <img src="images/burple2.png" alt="burple" class="preview-img">
+                    </div>
                 </div>
+
                 <div id="design-work2">
-                    <p>aknflkafialhksfhukhk</p>
+                    <div>
+                        <img src="images/earbuds2.jpg" alt="audionaut" class="preview-img">
+                    </div>
                 </div>
-
             </div>
+
         </a>
 
     </section>
-
-
-
-
-    <section id="dev-section">
-        <h2 class="hidden">dev div</h2>
-
-        <a href="devwork.html" class="dev-page-link">
-            <h2>DEV WORK</h2>
-
-            <div id="dev-divs">
-
-                <div id="dev-work1">
-                    <p>aknflkafialhksfhukhk</p>
-                </div>
-                <div id="dev-work2">
-                    <p>aknflkafialhksfhukhk</p>
-                </div>
-
-            </div>
-        </a>
-
-    </section>
-
-
-
 
 
     <footer class="grid-con">
@@ -214,9 +175,6 @@
         </div>
 
     </footer>
-
-
-
 
     <script src="/js/main.js"></script>
 </body>
