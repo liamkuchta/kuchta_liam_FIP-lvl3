@@ -269,7 +269,7 @@ background-color: rgba(255, 255, 255, 0);
      border-bottom: 1px solid #afafaf00;
 }
 
-/* DESIGN   DESIGN   DESIGN   DESIGN   DESIGN   DESIGN  DESIGN   DESIGN   DESIGN   DESIGN   DESIGN   DESIGN   */
+/* WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS WORKS  */
 #design-section {
   display: flex;
   flex-direction: column;
@@ -306,39 +306,12 @@ background-color: rgba(255, 255, 255, 0);
   background: url(../images/helicopter-2116170_640.jpg) no-repeat;
 }
 
-/* DEV   DEV   DEV   DEV   DEV   DEV   DEV   DEV  DEV   DEV   DEV   DEV   DEV   DEV   DEV   DEV   */
-#dev-section {
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid #000000; */
-  margin-left: 20%;
-  margin-right: 20%;
-  border-radius: 50px;
-  margin-bottom: 40px;
-  min-height: 400px;
-  /* background: radial-gradient(circle, #c3e1ff2f, #fff3d04f); */
-  background-color: rgba(255, 255, 255, 0.361);
+.design-page-link h2 {
+  font-family: "League Spartan";
+  text-decoration: none !important;
+  color: rgb(123, 123, 123);
 }
 
-#dev-divs {
-  display: flex;
-  flex-direction: row;
-}
-
-#dev-work1 {
-  max-width: 200px;
-  border: 2px solid #000000;
-  border-radius: 30px;
-  background: url(../images/strawberries-7249448_640.jpg) no-repeat;
-  margin-right: 16px;
-  margin-left: 16px;
-}
-
-#dev-work2 {
-  border: 2px solid #000000;
-  border-radius: 30px;
-  background: url(../images/helicopter-2116170_640.jpg) no-repeat;
-}/*# sourceMappingURL=main.css.map */
 
 
 
@@ -559,3 +532,265 @@ form {
   margin: 0 auto;
   text-align: center;
 }
+
+
+
+/* PROJECTS PAGE    PROJECTS PAGE   PROJECTS PAGE   PROJECTS PAGE   PROJECTS PAGE   PROJECTS PAGE   PROJECTS PAGE    */
+
+.section-title {
+  text-align: center;
+  font-family: "league spartan";
+  font-size: 40px;
+  color: rgb(133, 102, 101);
+}
+
+
+.projects-section {
+  padding: 40px 0;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+.project-item {
+  text-align: center;
+}
+
+.project-box {
+  width: 300px;
+  height: 400px;
+  background-color: #00000027;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+  transform: scale(1.05);
+}
+
+.project-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.project-label {
+  margin-top: 10px;
+  font-size: 23px;
+  font-family: "league spartan";
+  color: rgb(133, 102, 101);
+}
+
+@media (max-width: 767px) {
+  .project-grid {
+      grid-template-columns: 1fr;
+      gap: 35px;
+  }
+
+  .project-box {
+      width: 240px;
+      height: 240px;
+  }
+
+  .project-img {
+      width: 180px;
+      height: 180px;
+  }
+}
+
+/* CASE STUDIES  CASE STUDIES  CASE STUDIES  CASE STUDIES  CASE STUDIES   */
+
+
+.single-project-section {
+  padding: 40px 0 60px;
+}
+
+
+.section-title{
+  font-family: "league spartan";
+}
+
+.subsection-title {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0 25px;
+  font-family: "league spartan";
+}
+
+.project-hero-box {
+  max-width: 700px;
+  height: 400px;
+  margin: 30px auto 40px;
+  background-color: #00000000;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.project-hero-box img {
+  height: 300px;
+}
+
+
+
+.project-hero-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 40px;
+}
+
+
+.project-small-image-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.project-small-img {
+  max-width: 90%;
+  border-radius: 18px;
+  height: auto;
+}
+
+.project-about-text  {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "league spartan";
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto ;
+  color: gray;
+}
+
+.project-info {
+  grid-column: 1 / -1;      
+  max-width: 750px;         
+  margin: 0 auto 40px;     
+}
+
+.project-info-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  column-gap: 40px;
+  margin-bottom: 24px;
+}
+
+.project-info-label {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "league spartan";
+}
+
+.project-info-text {
+  font-size: 14px;
+  font-family: "league spartan";
+}
+
+.project-info-text p {
+  margin: 0 0 4px;
+}
+
+.project-goal-text {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "league spartan";
+  color: gray;
+}
+
+.project-mockup-large {
+  max-width: 500px;
+  height: 650px;
+  border-radius: 18px;
+  margin: 40px auto;
+  background-color: #00000000;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.project-large-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.project-buttons-wrap {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-btn {
+  display: block;
+  width: 160px;
+  margin: 0 auto 15px;
+  padding: 14px 0;
+  background-color: #00000000;
+  border-radius: 40px;
+  border: 2px solid #000000c3;
+  text-decoration: none;
+  font-size: 34px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "league spartan";
+}
+
+.project-btn:hover {
+  background-color: #00000022;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+
+  .project-hero-box {
+      height: 320px;
+      margin-top: 20px;
+  }
+
+ 
+
+  .project-about-text {
+      grid-column: 1 / -1;
+      padding: 0 20px;
+  }
+
+  .project-info {
+      padding: 0 20px;
+  }
+
+  .project-info-row {
+      grid-template-columns: 1fr;
+      row-gap: 6px;
+  }
+
+  .project-info-label {
+      font-size: 16px;
+      font-family: "league spartan";
+  }
+
+  .project-mockup-large {
+      height: 580px;
+      margin: 30px auto;
+  }
+
+  .project-goal-text {
+      padding: 0 20px;
+  }
+}
+

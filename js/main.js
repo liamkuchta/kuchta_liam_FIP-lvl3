@@ -1,3 +1,5 @@
+ (() =>{ 
+
 console.log("JavaScript File is linked");
 
 const navToggle = document.querySelector('#navToggle');
@@ -94,5 +96,7 @@ function startMarquee(element, duration, direction) {
 
 startMarquee(topMarquee, 20, "left");
 startMarquee(bottomMarquee, 20, "right");
+
+})();
 
 
