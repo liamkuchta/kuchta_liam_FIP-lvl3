@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $headers = "From: $email";
 
-    // uncomment this if you want to send real emails:
+    
      mail($to, $subject, $body, $headers);
 
     echo "<h1>Thank you for messaging me, $name!</h1>";
